@@ -1,0 +1,26 @@
+{
+    "Clientes": {
+        "where": false, 
+        "query": "SELECT * FROM Clientes"
+    },
+    "DocCuenta": {
+        "where": true,
+        "query": "EXEC SP_Export_DocCuenta"
+    },
+    "ItemsLista": {
+        "where": true,
+        "query": "EXEC SP_Export_ItemsLista"
+    },
+    "ObjetivosPorVendedorDetalle": {
+        "where": true,
+        "query": "SELECT ObjetivosPorVendedorDetalle.* FROM ObjetivosPorVendedorDetalle, ObjetivosPorVendedor WHERE ObjetivosPorVendedorDetalle.idObjetivo=ObjetivosPorVendedor.id AND ObjetivosPorVendedor.fVigDesde<GETDATE() AND ObjetivosPorVendedor.fVigHasta>GETDATE() "
+    },
+    "ImpXCliente": {
+        "where": true,
+        "query": "EXEC SP_Export_ImpXCliente"
+    },
+    "ImpXProducto": {
+        "where": true,
+        "query": "EXEC SP_Export_ImpXProducto"
+    }
+}

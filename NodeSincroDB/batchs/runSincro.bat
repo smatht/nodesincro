@@ -1,0 +1,4 @@
+@echo off
+cd C:\Users\Matias\Documents\DEV\Nodesincro\NodeSincroDB
+node sincroTablas.js Bancos Barrios BilleterasVirtuales Canales CategoriaClientes Clientes CondPago CondVenta Cotizaciones CuentasBanco Depositos DescXCliente DescXLista DescXProducto DescXPV DescXVendedor Descuentos Familias GrupoFamilia GrupoNumeracion GruposCanalesXCliente Lineas Listas Productos ProductosXVendedor ImpXCliente ImpXLista ImpXProducto ImpXPV Impuestos ItemsLista Localidades Monedas MotivosNoCompra NumeracionDoc Paises Provincias Rutas Stock Subcanales Sucursales TiposDoc TiposLote Unidades Vendedores Zonas DocCuenta ObjetivosPorVendedor ObjetivosPorVendedorDetalle Encuestas PreguntasPorEncuesta OpcionesPorPregunta RespuestaPorPreguntas ClientesPorEncuesta 
+pause

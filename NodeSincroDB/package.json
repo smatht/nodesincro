@@ -1,0 +1,34 @@
+{
+  "name": "NodeSincroDB",
+  "version": "4.0.1",
+  "description": "",
+  "main": "monitorARVServer.js",
+  "scripts": {
+    "lint": "standard",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "cli-progress": "^2.1.1",
+    "events": "^3.0.0",
+    "express": "^4.16.4",
+    "fs": "0.0.1-security",
+    "minimist": "^1.2.0",
+    "pg": "^7.12.1",
+    "sequelize": "^4.41.0",
+    "sequelize-auto": "^0.4.29",
+    "simple-node-logger": "^0.93.40",
+    "table": "^5.4.5",
+    "tedious": "^3.0.1",
+    "underscore": "^1.9.1",
+    "util": "^0.11.0",
+    "uuid": "^3.3.2",
+    "wait-until": "0.0.2"
+  },
+  "devDependencies": {
+    "standard": "^12.0.1"
+  }
+}

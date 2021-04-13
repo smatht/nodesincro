@@ -1,0 +1,5 @@
+{ 
+  "timestamps": false,
+  "freezeTableName": true, 
+  "hasTrigger": true
+}
